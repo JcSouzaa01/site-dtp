@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <div class="form">
+            <h1>LOGIN</h1>
+            <label>Usuário:</label>
+            <input type="text" id="user">
+            <label>Senha:</label>
+            <input type="password" id="senha">
+            <div class="botao">
+                <button onclick="rootPage()">Entrar</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function rootPage(){
+        let campoUser = document.getElementById('user');
+        let campoSenha = document.getElementById('senha');
+
+        if(campoUser.value == "adm" && campoSenha.value == "123"){
+            window.location.href = "sitedtp.html";
+        }
+        else {
+            console.log('Algo deu errado!')
+        }
+    }
+</script>
+</html>

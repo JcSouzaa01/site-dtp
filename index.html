@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="login">
@@ -20,17 +21,4 @@
         </div>
     </div>
 </body>
-<script>
-    function rootPage(){
-        let campoUser = document.getElementById('user');
-        let campoSenha = document.getElementById('senha');
-
-        if(campoUser.value == "adm" && campoSenha.value == "123"){
-            window.location.href = "sitedtp.html";
-        }
-        else {
-            console.log('Algo deu errado!')
-        }
-    }
-</script>
 </html>

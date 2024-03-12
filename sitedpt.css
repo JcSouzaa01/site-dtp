@@ -20,7 +20,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 170px;
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
     position: fixed; 
@@ -52,9 +52,9 @@ nav ul{
 nav ul li a{
     color: white;
     display: block;
-    margin: 0 2px;
+    margin: 0 30px;
     font-weight: 600;
-    padding: 8px 70px;
+    padding: 8px 16px;
     transition: 0.2s;
     border-radius: 30px;
 
@@ -126,11 +126,11 @@ nav ul li a:hover{
 }
 
 
-body .dtroup1{
+.dtroup1{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
 
 }
 .topoD{
@@ -142,7 +142,7 @@ body .dtroup1{
 }
 .imagem1{
     width: 100%;
-    height: 1750px;
+    height: 1850px;
     background-image: url('img/ZIKA2.png');
     background-size: cover;
 }
@@ -157,41 +157,45 @@ body .dtroup1{
     color: white;
     font-size: 60px;
     position: absolute;
-    top: 400px;
+    top: 450px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%; 
     text-align: center;
+    font-family: "Black Ops One", system-ui;
 }
 .text1{
     color: white;
     font-size: 25px;
     position: absolute;
-    top: 600px;
+    top: 700px;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
     text-align: center;
+    font-family: "Archivo", sans-serif;
 }
 .text3{
     color: white;
     font-size: 25px;
     position: absolute;
-    top: 800px;
+    top: 900px;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
     text-align: center;
+    font-family: "Archivo", sans-serif;
 }
 .text4{
     color: white;
-    font-size: 25px;
+    font-size: 23px;
     position: absolute;
-    top: 1050px;
+    top: 1350px;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
     text-align: center;
+    font-family: "Architects Daughter", cursive;
 }
 .imagem2{
     width: 200px;

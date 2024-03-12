@@ -1,6 +1,6 @@
 body{
-    background: rgb(31,125,213);
-    background: linear-gradient(90deg, rgba(31,125,213,1) 0%, rgba(9,37,62,1) 0%, rgba(0,0,0,1) 98%);
+    background: rgb(0, 0, 0);
+    /*background: linear-gradient(90deg, rgba(31,125,213,1) 0%, rgba(9,37,62,1) 0%, rgba(0,0,0,1) 98%);*/
     scroll-behavior: smooth;
 }
 
@@ -125,12 +125,98 @@ nav ul li a:hover{
     }
 }
 
-.home {
+
+body .dtroup1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+.topoD{
+    margin-top: 150px;
+    font-size: 80px;
+    font-family: "Black Ops One", system-ui;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #1F7DD5;
+}
+.imagem1{
+    width: 100%;
+    height: 1750px;
+    background-image: url('img/ZIKA2.png');
+    background-size: cover;
+}
+.sombra{
+    display: block;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(25%);
+    position: relative;
+}
+.text2{
     color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+    text-align: center;
+}
+.text1{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    text-align: center;
+}
+.text3{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    text-align: center;
+}
+.text4{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 1050px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    text-align: center;
+}
+.imagem2{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/zika6-ff.png);
+    background-size: cover;
+    margin-top: 150px;
+}
+.imagem3{
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    background-image: url(img/zika6-ff.png);
+    background-size: cover;
+}
+.home {
+    color: rgb(0, 0, 0);
+    cursor: default !important;
 }
 .jogos {
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 100px;
+}
+.jogos h1{
+    color: rgb(255, 255, 255);
 }
 .test{
     margin-top: 100px;

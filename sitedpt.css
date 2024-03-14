@@ -142,7 +142,7 @@ nav ul li a:hover{
 }
 .imagem1{
     width: 100%;
-    height: 1850px;
+    height: 1900px;
     background-image: url('img/ZIKA2.png');
     background-size: cover;
 }
@@ -212,15 +212,35 @@ nav ul li a:hover{
     background-size: cover;
 }
 .home {
-    color: rgb(0, 0, 0);
+    color: transparent;
     cursor: default !important;
+}
+.comeco::selection {
+    background: transparent;
+    color: transparent;
 }
 .jogos {
     color: rgb(255, 255, 255);
-    margin-top: 100px;
 }
-.jogos h1{
-    color: rgb(255, 255, 255);
+.game{
+    border-top: 2px solid white;
+    color: transparent;
+    cursor: default !important;
+}
+.game::selection {
+    background: transparent;
+    color: transparent;
+}
+.test1{
+    font-family: "Black Ops One", system-ui;
+    margin-top: 50px;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player{
+    color: white;
 }
 .test{
     margin-top: 100px;

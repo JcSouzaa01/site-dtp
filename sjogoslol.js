@@ -1,19 +1,19 @@
 const JOGOS = [
     {
-      logoJogo: "imgjogos/loljogo2.png",
+      logoJogo: "imgjogos/lol/lolx1r1.png",
     },
     {
-      logoJogo: "imgjogos/loljogo2.png",
+        logoJogo: "imgjogos/lol/lolx1r1-3.png",
     },
     {
-      logoJogo: "imgjogos/loljogo2.png",
+      logoJogo: "imgjogos/lol/lolx1r1-2.png",
     },
     {
-      logoJogo: "imgjogos/loljogo2.png",
+      logoJogo: "imgjogos/lol/lol5v5semi.png",
     },
     {
-      logoJogo: "imgjogos/loljogo2.png",
-    }
+        logoJogo: "imgjogos/lol/lolaramsemi.png",
+    },
 ];
 
 const quadrosDivs = document.querySelectorAll("#quadros");
